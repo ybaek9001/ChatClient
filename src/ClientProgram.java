@@ -6,7 +6,7 @@ public class ClientProgram {
 
 	public static void main(String[] args) throws UnknownHostException, IOException {
 		
-		ClientSocket client=new ClientSocket("211.238.142.248", 10009);
+		ClientSocket client=new ClientSocket("211.238.142.115", 10009);
 		
 		client.setReceiveListener(new ReceiveListener() {
 			
